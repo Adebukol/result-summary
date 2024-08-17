@@ -5,6 +5,7 @@
 }
 body{
     margin: 18em;
+    max-width: 1440px;
     font-family: "Hanken Grotesk", sans-serif;
 } 
 .container {
@@ -47,7 +48,7 @@ body{
     margin-bottom: 2em ;
   }
   .circle >h2{
-    font-size:6em;
+    font-size:5em;
     color: hsl(0, 0%, 100%);
 }
 .circle >p{
@@ -167,6 +168,9 @@ button:hover{
     }
   .box-1,.box-2{
     padding: 1.8em;
+  }
+  .box-2 >h2{
+    font-size: 16px;
   }
   }
   
