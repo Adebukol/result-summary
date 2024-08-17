@@ -31,7 +31,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 3em;
+    padding: 2.5em 4.5em;
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
   }
   .box-1 >h1{
@@ -42,7 +42,8 @@ body{
   .circle {
     width: 15em;
     height: 15em;
-    padding: 2em;
+    padding-top: 2.8em;
+    /* padding: 2em; */
     border-radius: 50%;
     background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     margin-bottom: 2em ;
@@ -56,7 +57,7 @@ body{
     color: hsl(224, 28%, 76%);
 }
 .box-1 >h3{
-    font-size: 3em;
+    font-size: 2.5em;
     color: hsl(0, 0%, 100%);
 }
 h4{
@@ -105,6 +106,7 @@ img{
     padding: 1em;
     width: 100%;
     font-size: 18px;
+    font-weight: 700;
     border-radius: 2em;
     background: hsl(224, 30%, 27%)
 }
