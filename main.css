@@ -39,9 +39,6 @@ body{
     margin-bottom: 1.5em;
 }
   .circle {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     width: 15em;
     height: 15em;
     padding: 2em;
@@ -87,6 +84,17 @@ h4{
     margin-bottom: 1.5em;
     color: hsl(224, 30%, 27%);
 }
+.summary >h3{
+  color: hsl(224, 30%, 27%);
+  font-weight: 800;
+}
+span{
+  color: hsl(241, 100%, 89%);
+}
+
+img{
+ margin-right: 0.5em;
+}
   button{
     display: block;
     margin-left: auto;
@@ -99,27 +107,31 @@ h4{
     border-radius: 2em;
     background: hsl(224, 30%, 27%)
 }
+button:hover{
+  background: hsl(241, 81%, 54%);
+  cursor: pointer;
+}
 .red-bg{
-    background-color: hsla(0, 71%, 79%, 0.379);
-    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 70%, 79%, 0.178);
+    color: hsla(0, 100%, 67%, 0.694);
     padding: 0.8em;
     margin-bottom: 1em;  
     
 }
 .yellow-bg{
-    background-color: hsla(39, 72%, 78%, 0.865);
+    background-color: hsla(39, 71%, 78%, 0.228);
     color: hsl(39, 100%, 56%);
     padding: 0.8em;
     margin-bottom: 1em;  
 }
 .green-bg{
-    background-color: hsla(165, 42%, 93%, 0.8);
+    background-color: hsla(164, 43%, 93%, 0.621);
     color: hsl(166, 100%, 37%);
     padding: 0.8em;
     margin-bottom: 1em;  
 }
 .blue-bg{
-    background-color: hsla(235, 50%, 90%, 0.797);
+    background-color: hsla(235, 49%, 90%, 0.594);
     color: hsl(234, 85%, 45%) ;
     padding: 0.8em;
     margin-bottom: 1em; 
@@ -133,10 +145,28 @@ h4{
  
   /* Responsive Design */
   @media (max-width: 768px) {
+    body{
+      margin: 0em;
+    }
+    main{
+      top: -20px;
+      position: absolute;
+    }
+    .circle {
+      width: 10em;
+      height: 10em;
+      margin-bottom: 1em;
+    }
+    .circle >h2{
+      font-size:4em;
+    }
     .box-1,
     .box-2 {
       flex: 1 1 100%;
       margin: 5px 0;
     }
+  .box-1,.box-2{
+    padding: 1.8em;
+  }
   }
   
